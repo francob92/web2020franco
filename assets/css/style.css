@@ -9990,12 +9990,36 @@ aside {
 .aside__h5 {
   display: flex;
   align-items: center;
-  width: 100vw;
   color: white;
   background-color: grey;
 }
 
-.container {
+.aside__logo {
+  text-align: center;
+}
+
+.aside__gift {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chevron {
+  animation: mover 2s linear 0s infinite;
+}
+
+@keyframes mover {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(120px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.fcontainer {
   width: 100vw;
   margin: 0 auto;
   height: 100vh;
@@ -10031,7 +10055,7 @@ aside {
 }
 
 @media (min-width: 576px) {
-  .container {
+  .fcontainer {
     display: grid;
     height: 100vh;
     grid-template-rows: 1fr 2fr 3fr 1fr;

@@ -1,4 +1,4 @@
-.container {
+.fcontainer {
     width: 100vw;
     margin: 0 auto;
     height: 100vh;
@@ -34,7 +34,7 @@
 }
 
 @media (min-width: 576px) {
-    .container {
+    .fcontainer {
         display: grid;
         // width: 100vw;
         height: 100vh;
