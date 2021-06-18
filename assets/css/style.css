@@ -10088,18 +10088,37 @@ aside {
 }
 .footer {
   display: flex;
+  flex-direction: column;
   background-color: black;
   color: white;
   width: 100vw;
+  text-align: center;
 }
 
 .footer__p {
-  display: flex;
-  flex-direction: column;
   align-items: center;
   width: 100vw;
 }
 
+@media (min-width: 576px) {
+  .footer {
+    text-align: center;
+    padding: 2em;
+  }
+
+  .footer__p {
+    display: flex;
+  }
+
+  .footer__content {
+    text-align: center;
+    width: 50%;
+  }
+
+  .interactions-row {
+    display: flex;
+  }
+}
 .gear {
   animation-name: giro;
   animation-duration: 4s;
