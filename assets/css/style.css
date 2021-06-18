@@ -10089,7 +10089,7 @@ aside {
 .footer {
   display: flex;
   flex-direction: column;
-  background-color: black;
+  background-color: #000000;
   color: white;
   width: 100vw;
   text-align: center;
@@ -10133,6 +10133,9 @@ aside {
   100% {
     transform: rotate(360deg);
   }
+}
+.button-primary {
+  background-color: #FFA500;
 }
 
 /*# sourceMappingURL=style.css.map */
