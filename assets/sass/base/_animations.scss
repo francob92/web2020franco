@@ -1,0 +1,14 @@
+.gear{
+    animation-name: giro;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transform-origin: 80% 80%;
+}
+@keyframes giro {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

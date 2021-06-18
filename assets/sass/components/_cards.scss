@@ -1,0 +1,19 @@
+
+.card__icons {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.icon {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-left: 5%;
+}
+
+.cards__imgs {
+    width: 100%;
+    height: auto;
+}
